@@ -7,7 +7,7 @@ namespace bflibcs
         public static int LargestOfThree(int a, int b, int c)
         {
             int large;
-
+          
             if (a > b && a > c)
                 large = a;
             else if (b > a && b > c)
@@ -18,4 +18,6 @@ namespace bflibcs
             return large;
         }
     }
+
+
 }
